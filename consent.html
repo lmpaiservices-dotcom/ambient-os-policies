@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Ambient OS — SMS Consent Record</title></head>
+<body style="font-family:system-ui,sans-serif;max-width:42em;margin:3em auto;padding:0 1em;line-height:1.6">
+<h1>Ambient OS — SMS Consent Record</h1>
+<p><em>Last updated: August 3, 2026</em></p>
+
+<h2>There is no public opt-in form</h2>
+<p>Ambient OS is a private, single-user system. There is no public sign-up page
+because there is no public audience. The only person who receives messages from
+(650) 797-0459 is the account owner and sole proprietor, Luis Padilla.</p>
+
+<h2>How consent was given</h2>
+<p>Luis Padilla purchased this Twilio phone number, built the Ambient OS
+application, and added his own mobile number to the application's
+single-recipient allowlist. Adding his own number to that allowlist is the
+consent action. Consent was not shared, transferred, or purchased from any
+third party.</p>
+
+<h2>How it is enforced</h2>
+<p>The application validates the sender of every inbound message against a
+single allowlisted number. Messages from any other number are rejected with an
+HTTP 403 response: no reply is sent and no data is stored. The system has no
+mechanism for adding additional recipients and cannot send messages to anyone
+other than the account owner.</p>
+
+<h2>Message frequency</h2>
+<p>User-initiated only. The system replies only to messages the account owner
+sends to it. It never sends unsolicited messages. Frequency varies.</p>
+
+<h2>How to revoke consent</h2>
+<p>Reply STOP to any message to opt out. Reply HELP for help. Consent can also
+be revoked by removing the number from the application's allowlist.</p>
+
+<h2>Rates</h2>
+<p>Message and data rates may apply.</p>
+
+<h2>Related documents</h2>
+<p>
+<a href="./privacy.html">Privacy Policy</a><br>
+<a href="./terms.html">Terms and Conditions</a>
+</p>
+
+<h2>Contact</h2>
+<p>lmp.ai.services@gmail.com</p>
+</body>
+</html>
